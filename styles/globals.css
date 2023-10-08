@@ -2,26 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+  font-family: 'Inter', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.sec-color{
+  @apply text-rose-500;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.letra-oscura{
+  @apply text-gray-800;
 }
+
+.letra-clara{
+  @apply text-slate-500;
+}
+
+.medium-title{
+  @apply text-gray-800 font-bold text-lg;
+}
+
+.letra-peque{
+  @apply text-slate-500 text-sm font-medium;
+}
+
+p{
+  @apply text-justify;
+}
+
+.debug{
+  border: 1px solid red;
+}
+
+.button-primary{
+  @apply bg-rose-500 text-white px-2 py-1 rounded-md h-full w-full;
+}
+
+.side-bar{
+  @apply flex justify-center h-full;
+}
+
+.bloque{
+  @apply bg-gray-100;
+}
+
+.icon{
+  @apply h-7 w-auto text-gray-50;
+}
+
+/* Establecer un alto máximo y permitir desplazamiento vertical en el contenido central */
+.main-content {
+  max-height: 100vh; /* Altura máxima igual a la altura de la ventana */
+  overflow-y: auto; /* Permitir desplazamiento vertical cuando sea necesario */
+}
+
+.modal{
+  @apply flex flex-col items-center pt-40;
+}
+
+
+
+
