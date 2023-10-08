@@ -6,6 +6,10 @@
   font-family: 'Inter', sans-serif;
 }
 
+ul {
+  @apply list-disc list-inside text-lg text-slate-500;
+}
+
 .sec-color{
   @apply text-rose-500;
 }
@@ -50,15 +54,18 @@ p{
   @apply h-7 w-auto text-gray-50;
 }
 
-/* Establecer un alto máximo y permitir desplazamiento vertical en el contenido central */
 .main-content {
-  max-height: 100vh; /* Altura máxima igual a la altura de la ventana */
-  overflow-y: auto; /* Permitir desplazamiento vertical cuando sea necesario */
+  @apply max-h-screen overflow-y-auto;
 }
 
 .modal{
   @apply flex flex-col items-center pt-40;
 }
+
+.more-content{
+  @apply p-8 flex flex-col gap-2 max-w-3xl;
+}
+
 
 
 

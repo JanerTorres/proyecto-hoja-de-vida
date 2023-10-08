@@ -8,7 +8,6 @@ import RightBar from "@/components/RightBar";
 import SectionInfo from "@/components/SectionInfo";
 
 
-
 const Index = () => {
   return (
     <div className="flex flex-row bg-slate-200 w-full gap-4">
@@ -20,17 +19,17 @@ const Index = () => {
           <Header />
           <SectionInfo
             title="My Knowledge"
-            info="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"></SectionInfo>
+            info="I have experience with various tools and languages that encompass both digital and analog development and art."></SectionInfo>
 
           <Knowledge />
           <SectionInfo
             title="Education"
-            info="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"></SectionInfo>
+            info="A significant portion of my education has been acquired during my university studies, as well as through guidance from professionals and self-driven pursuit of knowledge."></SectionInfo>
 
           <Education />
           <SectionInfo
             title="Portfolio"
-            info="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"></SectionInfo>
+            info="This section showcases the most relevant experiences throughout my career as a developer."></SectionInfo>
 
           <Portfolio />
         </div>
