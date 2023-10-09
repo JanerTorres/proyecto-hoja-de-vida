@@ -1,5 +1,6 @@
 import React from "react"
 import Button from "@/components/Button";
+import Image from "next/image";
 
 const Header = () => {
     return (
@@ -21,7 +22,7 @@ const Header = () => {
             </div>
 
             <div className="h-full w-[500px] flex items-end">
-                <img className="" src="/images/foto_portada.png" alt="Foto de portada" />
+                <Image src="/images/foto_portada.png" alt="Foto de portada" width={500} height={500}></Image>
             </div>
 
         </div>

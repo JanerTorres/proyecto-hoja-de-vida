@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react"
 import BasicInfo from "@/components/BasicInfo";
 import SlideBar from "@/components/SlideBar";
+import Image from "next/image";
 
 const LeftBar = () => {
     return (
         <div className="side-bar bloque flex-col items-center gap-6 pb-6">
             <div className="flex flex-col items-center w-48 mt-12 gap-6">
-                <img className="" src="/images/foto_perfil_circular.png" alt="Foto de  perfil" />
+                <Image src="/images/foto_perfil_circular.png" alt="Foto de  perfil" width={192} height={192}></Image>
                 <div className="flex flex-col items-center gap-1">
                     <span className="font-semibold text-xl letra-oscura">Jhon Janer Torres</span>
                     <span className="text-lg letra-clara">Back-End Developer</span>
