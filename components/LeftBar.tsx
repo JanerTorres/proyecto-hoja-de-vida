@@ -16,9 +16,9 @@ const LeftBar = () => {
 
             <div className="flex flex-col w-56 gap-2">
                 <BasicInfo item="Age" detail="23" color="letra-oscura" />
-                <BasicInfo item="Residence" detail="Colombia" color="letra-oscura" />
+                <BasicInfo item="Residence" detail="Med, Colombia" color="letra-oscura" />
                 <BasicInfo item="Freelance" detail="Available" color="text-green-500" />
-                <BasicInfo item="Address" detail="Medellin, Ant" color="letra-oscura" />
+                <BasicInfo item="Email" detail="janer.torres@udea.edu.co" color="letra-oscura" />
             </div>
 
             <div className="flex flex-col w-56 gap-2">
@@ -32,11 +32,11 @@ const LeftBar = () => {
             <div className="flex flex-col w-56 gap-2">
                 <span className="medium-title">Programming Languages</span>
                 <div className="flex flex-col gap-2">
-                    <SlideBar item="Java" nivel={70}></SlideBar>
-                    <SlideBar item="C#" nivel={30}></SlideBar>
-                    <SlideBar item="Python" nivel={100}></SlideBar>
-                    <SlideBar item="Typescript" nivel={100}></SlideBar>
-                    <SlideBar item="MySQL" nivel={100}></SlideBar>
+                    <SlideBar item="Java" nivel={75}></SlideBar>
+                    <SlideBar item="C#" nivel={60}></SlideBar>
+                    <SlideBar item="Python" nivel={60}></SlideBar>
+                    <SlideBar item="Typescript" nivel={50}></SlideBar>
+                    <SlideBar item="MySQL" nivel={80}></SlideBar>
                 </div>
             </div>
         </div>
