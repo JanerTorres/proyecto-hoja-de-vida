@@ -14,7 +14,7 @@ const Skill = ({icon, title, info}:SkillProps) => {
         <img hidden={!(icon==='paint')} className='w-20' src="/images/paint.png" alt="" />
         <img hidden={!(icon==='bd')} className='w-20' src="/images/bd.png" alt="" />
         <img hidden={!(icon==='game')} className='w-20' src="/images/game.png" alt="" />
-        <img hidden={!(icon==='')} className='w-20' src="/images/design.png" alt="" />
+        <img hidden={!(icon==='supp')} className='w-20' src="/images/supp.png" alt="" />
 
         <div className='flex flex-col items-center gap-2'>
             <span className='text-lg font-medium letra-oscura'>{title}</span>
