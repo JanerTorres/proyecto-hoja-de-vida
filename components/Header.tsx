@@ -1,6 +1,7 @@
 import React from "react"
 import Button from "@/components/Button";
 import Image from "next/image";
+import ContactDialog from "./ContactDialog";
 
 const Header = () => {
     return (
@@ -16,7 +17,7 @@ const Header = () => {
                 <p className="mb-6 text-lg letra-clara">Passionate Systems Engineering student, specializing in Web Development. My goal is to transform code lines into creative solutions. I am actively seeking exciting challenges where my skills can bring innovative software projects to life.
                 </p>
                 <div className="w-40 h-14">
-                    <Button text="HIRE ME  ->"></Button>
+                    <ContactDialog/>
                 </div>
 
             </div>
