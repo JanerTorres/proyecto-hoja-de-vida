@@ -16,12 +16,8 @@ interface IconProps {
 const Icon = ({icon}:IconProps) => {
   return (
     <div className='bg-rose-500 w-14 h-14 flex items-center justify-center rounded-full'>
-        <BiLogoFacebook hidden={!(icon==='facebook')} className="icon" />
-        <BiLogoInstagramAlt hidden={!(icon==='instagram')} className="icon" />
-        <BiLogoTwitter hidden={!(icon==='twitter')} className="icon" />
-        <BiLogoLinkedin hidden={!(icon==='linkedin')} className="icon" />
-        <BiLogoYoutube hidden={!(icon==='youtube')} className="icon" />
-        <BiLogoDribbble hidden={!(icon==='dribbble')} className="icon" />
+      <a hidden={!(icon==='linkedin')} href="https://www.linkedin.com/in/jhon-janer-torres/"><BiLogoLinkedin  className="icon" /></a>
+      <a hidden={!(icon==='instagram')} href="https://www.instagram.com/janert_art/"><BiLogoInstagramAlt       className="icon" /></a>    
     </div>
   )
 }

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+.debug{
+  border: 1px solid red;
+}
+*/
+
 *{
   font-family: 'Inter', sans-serif;
 }
@@ -32,10 +38,6 @@ ul {
 
 p{
   @apply text-justify;
-}
-
-.debug{
-  border: 1px solid red;
 }
 
 .button-primary{

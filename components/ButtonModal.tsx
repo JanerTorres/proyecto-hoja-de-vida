@@ -32,6 +32,7 @@ const ButtonModal = ({ choose, title }: ButtonModalProps) => {
 
                     <div hidden={choose !== 'web'} className=''>
                         <div className='more-content'>
+                        <span className='text-lg letra-oscura font-medium'>Web developer and designer at the DRAI (Research and Development in Engineering) department of the University of Antioquia.</span>
                             <ul>
                                 <li>Responsible for the Backend area. Development of APIs with Java, management, and structuring of databases.</li>
                                 <li>Implementation of design patterns and software architecture principles.</li>
