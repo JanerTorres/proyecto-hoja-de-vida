@@ -50,7 +50,7 @@ const ButtonModal = ({ choose, title }: ButtonModalProps) => {
                             <ul>
                                 <li>As an instructor, I had the privilege of leading and guiding this exciting course.
                                     My responsibilities included imparting knowledge on game development in Unity, tackling creative challenges,
-                                    and providing guidance and supervision for academic and business projects, contributing to our participants" success.
+                                    and providing guidance and supervision for academic and business projects, contributing to our participants success.
                                 </li>
                             </ul>
                         </div>
