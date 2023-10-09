@@ -1,6 +1,6 @@
 ## Enlace directo a sitio desplegado en Vercel
 
-### https://proyecto-hoja-de-vida-n0wet1qvm-janertorres-projects.vercel.app
+### https://proyecto-hoja-de-vida-3zhpo5u71-janertorres-projects.vercel.app 
 
 Dimensiones de pantalla en las cuales el diseño de la aplicación se visualiza correctamente: `1920 x 1080`
 
