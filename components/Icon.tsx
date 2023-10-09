@@ -4,6 +4,7 @@ import { BiLogoTwitter } from 'react-icons/bi';
 import { BiLogoLinkedin } from 'react-icons/bi';
 import { BiLogoYoutube } from 'react-icons/bi';
 import { BiLogoDribbble } from 'react-icons/bi';
+import { BiLogoGithub } from 'react-icons/bi';
 
 BiLogoTwitter
 
@@ -17,6 +18,7 @@ const Icon = ({icon}:IconProps) => {
   return (
     <div className='bg-rose-500 w-14 h-14 flex items-center justify-center rounded-full'>
       <a hidden={!(icon==='linkedin')} href="https://www.linkedin.com/in/jhon-janer-torres/"><BiLogoLinkedin  className="icon" /></a>
+      <a hidden={!(icon==='github')} href="https://github.com/JanerTorres"><BiLogoGithub  className="icon" /></a>
       <a hidden={!(icon==='instagram')} href="https://www.instagram.com/janert_art/"><BiLogoInstagramAlt       className="icon" /></a>    
     </div>
   )
